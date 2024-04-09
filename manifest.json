@@ -1,0 +1,12 @@
+{
+  "name": "Web Harvester",
+  "version": "0.1.0",
+  "description": "This chrome extension helps you to scrape data from a website and send the selected information to you in a set time interval.",
+  "manifest_version": 3,
+  "author": "Octosub",
+  "permissions": ["storage", "tabs"],
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Web Harvester"
+  }
+}
